@@ -1,0 +1,134 @@
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+header {
+  background-image: url(../imgs/mainbg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header .overlay {
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+header .open {
+  cursor: pointer;
+  width: fit-content;
+}
+
+.singers {
+  background-color: rgba(214, 46, 51, 0.6);
+  padding-block: 5px;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.singers-content {
+  background-color: #ccc;
+  color: black;
+  margin-bottom: 0;
+  padding-block: 10px;
+}
+
+.counting-down {
+  background-image: url(../imgs/joinbg.jpg);
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section .overlay {
+  min-height: 50vh;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+section .overlay .inner h3 {
+  padding-block: 50px;
+}
+
+section .overlay .inner {
+  border: 1px solid white;
+}
+
+.main-color {
+  color: #d62e33;
+}
+
+footer button {
+  background-color: #d62e33;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+h4,
+h5 {
+  color: #444;
+}
+
+.sec-color {
+  color: #777;
+}
+
+footer a {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+footer a:hover {
+  background-color: #d62e33;
+  color: white;
+}
+
+footer a i {
+  padding-left: 9px;
+  padding-top: 10px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.side-bar {
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #111;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+ul a {
+  text-decoration: none;
+  font-size: 25px;
+  transition: color 300ms;
+}
+
+ul a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+
+ul li {
+  margin-block: 25px;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.close i {
+  transition: color 300ms;
+}
+
+.close:hover i {
+  color: rgba(214, 46, 51, 0.4);
+}
